@@ -132,29 +132,59 @@ height: 551px;
     width: 272px;
     height: 547px;
 }
+.location-info{
+    vertical-align: auto;
+}
 
-.step-info .step-1{
+ .step-info-1{
+    position: relative;
     border-radius: 50%;
-    margin-bottom: 60px;
     width: 59px;
     height: 59px;
-    background-color: #F2C94C;
+    margin: 80% auto;
+    background: #DEB63D;
     
 }
-.step-info .step-2{
-    border-radius: 50%;
-    margin-bottom: 60px;
-    width: 59px;
-    height: 59px;
-    background-color: #F2F2F2;;
-}
-.step-info .step-3{
+
+.step-info-2{
+    position: relative;
     border-radius: 50%;
     width: 59px;
-    margin-bottom: 60px;
     height: 59px;
-    background-color: #F2F2F2;
+    margin: 80% auto;
+    background: #E0E0E0;
+   
+    
 }
+
+.step-info-3{
+    position: relative;
+    border-radius: 50%;
+    width: 59px;
+    height: 59px;
+    margin: 80% auto;
+    background: #E0E0E0;
+    
+    
+}
+
+.step{
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #000;
+    font-weight: bolder
+    
+    
+}
+.box{
+    vertical-align: auto;
+}
+
+
 .location-1, .perfect-ride, .pay{
     text-align: center;
     margin-bottom:30px ;
@@ -202,7 +232,7 @@ background-position: center;
 background-size: cover;
 }
 
-
+/*end of container-3*/
 
 .text-3{
     padding-top: 60px;
